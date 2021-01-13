@@ -1,6 +1,3 @@
-function soma(n1, n2){
-    return n1 + n2;
+function clicou(){
+    alert("obrigado por clicar");
 }
-
-alert(soma(5, 10));
-
