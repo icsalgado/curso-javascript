@@ -1,10 +1,13 @@
-var nome = "Iuri Salgado";//terminar em ;
-var num1 = 10;
-var num2 = 11;
-/*
-alert("Olá mundo javascript");
-alert("Bem vindo " + nome);//concatena com a variavel
-alert(num1 + num2);//soma variavel 
-*/
-console.log(nome);
-console.log(num1 + num2);
+var lista = ["maçã", "pera", "laranja"]; //lista
+var fruta = {nome:"maçã", cor:"vermelho"}; //dicionario, pode existir uma lista de dicionarios
+console.log(lista);
+console.log(lista[1]);
+lista.pop();
+console.log(lista);
+lista.push("uva");
+console.log(lista);
+console.log(lista.length);
+console.log(lista.reverse());
+console.log(lista.toString());
+console.log(lista.join(" - "));
+console.log(fruta);
